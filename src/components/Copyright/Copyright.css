@@ -1,0 +1,13 @@
+.copyright{
+background: rgb(37, 37, 37);
+color:grey;
+padding-top: 1.2%;
+text-align:center;
+font-family:sans-serif;
+left: 0;
+bottom: 0;
+height: 70px;
+width: 100%;
+overflow: hidden;
+box-sizing:border-box;
+}

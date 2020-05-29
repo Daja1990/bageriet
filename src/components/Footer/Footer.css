@@ -1,0 +1,42 @@
+*{
+padding:0;
+margin:0;
+}
+
+footer{
+background: rgb(51, 51, 51);
+text-align:center;
+left: 0;
+bottom: 0;
+width: 100%;
+position: relative;
+font-family: 'Open Sans', sans-serif;
+}
+
+.footerheader{
+font-weight: bold;
+color: white;
+font-family: 'Lobster', cursive;
+font-size: 3vw;
+padding: 3%;
+}
+
+.footerarrow{
+background-color: white;
+border-radius: 50%;
+width: 3vw;
+padding: 0.4%;
+transform: rotate(270deg);
+position: absolute;
+top: -14%;
+left: 48%;
+border: 1px solid grey;
+}
+
+.footertxt{
+color: grey;
+/* width: 600px; */
+margin: 0 auto;
+font-size: .8vw;
+padding-bottom: 3%;
+}

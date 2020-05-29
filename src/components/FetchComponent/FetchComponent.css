@@ -1,0 +1,51 @@
+img{
+width: 15vw;
+}
+
+.fetchclass{
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+
+.apiheader{
+font-weight: 600;
+font-size: 1vw;
+padding-bottom: 6%;
+padding-top: 4%;
+}
+
+.api-p{
+font-weight: 200;
+padding-bottom: 6%;
+}
+
+.category-button{
+margin-bottom: 6%;
+background: none;
+border: 1px solid black;
+font-weight: 200;
+/* padding: 15px 80px; */
+padding: 1vw 10vh;
+}
+
+.fetchheader{
+font-weight: 600;
+font-size: 2vw;
+font-family: 'Lobster', cursive;
+}
+
+.fetchheadertxt{
+/* width: 1200px; */
+margin: 0 auto;
+color: gray;
+font-size: 0.8vw;
+font-weight: 200;
+}
+
+
+@media screen and (max-width: 992px) {
+    .fetchclass{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        }
+  }

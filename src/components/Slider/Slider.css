@@ -1,0 +1,71 @@
+.slider{
+position: relative;
+width: 100%;
+box-sizing: border-box;
+margin: 0;
+padding: 0;
+display: flex;
+align-items: center;
+overflow: hidden;
+}
+
+.slider i{
+font-size: 2vw;
+color: whitesmoke;
+opacity: 0.6;
+}
+
+.slide{
+min-width: 100%;
+height: 100%;
+transition: .5s;
+overflow: hidden;
+}
+
+.sliderbutton{
+background: none;
+border: none;
+outline: none;
+transition: 0.5s;
+}
+
+.sliderbutton:hover{
+cursor: pointer;
+}
+
+.sliderbutton:hover i{
+color: black;
+}
+
+#goLeft{
+left: 0;
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 10%;
+height: 100%;
+}
+
+#goRight{
+right: 0;
+position: absolute;
+top: 54%;
+transform: translateY(-55%);
+width: 10%;
+height: 100%;
+}
+
+.hero-headtxt{
+color: white;
+font-size: 5vw;
+position: absolute;
+top: 40%;
+width: 100%;
+margin: auto;
+text-align: center;
+font-family: 'Lobster', cursive;
+}
+
+.hero-headtxt:hover{
+color: white;
+}

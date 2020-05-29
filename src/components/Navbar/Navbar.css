@@ -1,0 +1,32 @@
+nav{
+color: white;
+font-size: 1vw;
+position: absolute;
+top: 0%;
+width: 100%;
+text-align: center;
+z-index: 100;
+font-family: 'Open Sans', sans-serif;
+font-weight: 300;
+}
+
+li{
+display: inline;
+color: white;
+}
+
+nav li{
+padding-left: 30px;
+display: inline;
+padding-right: 20px;
+}
+
+a{
+text-decoration:none;
+color: white;
+}
+
+.navtext{
+font-family: 'Lobster', cursive;
+font-size: 4vw;
+}
